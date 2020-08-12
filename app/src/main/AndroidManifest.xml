@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doctorappointmentsystem">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/doctor_appointment_system_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/doctor_appointment_system_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminSetUpiIdActivity"></activity>
+        <activity android:name=".AdminViewDoctorAppointmentHistory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".AdminViewDoctorPaymentHistory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".AdminViewDoctorConfirmBooking"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".AdminViewPatientConfirmBooking"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".AdminManagePatientAppointmentHistory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".AdminViewPatientPaymenHistory"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".DoctorChangeWeekendActivity" />
+        <activity
+            android:name=".OurDoctorsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminManageDoctorAccountsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".HealthDetailsActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ReadAboutHealthActivity" android:screenOrientation="portrait" />
+
+        <activity android:name=".AttemptSecurtiyQuestionsActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".PatientForgetPasswordActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".PatientSecurityQuestionActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".DoctorResetPassword"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".UpdatePatientProfileActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".UpdateDoctorProfileActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ApplyDoctorPersonelChargesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AdminAppliedChargesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DoctorReportGenerateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientReportGenerateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorAppointmentBookingHistoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientAppointmentBookingHistoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorConfirmedPaymentReport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PatientVarificationActivity" />
+        <activity
+            android:name=".PaymentConfirmedReportActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorLeaveRequest"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Doctor_LiveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminManagePatientProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminManage_PatientActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientChatingWithDoctorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChatttingWithActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorChatingPatientActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorViewChatRequestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorPaymentMethodActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientViewConfirmBookingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorViewConfirmBookingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorViewBookinRequestActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientBookingDoctorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Set_Pateint_profile_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Patient_Registration_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Patient_Login_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PatientMeetDoctorProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Meet_Doctor_ShortList_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MeetDoctorActivity" />
+        <activity
+            android:name=".AdminManageDoctorProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManageDoctorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Doctor_ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SetDoctorProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DoctorLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".displayDoctorUsernamePasswordActivity" />
+        <activity
+            android:name=".AddDoctorActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterAdminActivity" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplaceScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

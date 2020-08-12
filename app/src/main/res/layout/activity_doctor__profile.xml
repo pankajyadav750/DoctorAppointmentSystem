@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Doctor_ProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffffff"
+        android:elevation="4dp"
+        app:popupTheme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+
+        />
+    <ImageView
+        android:layout_below="@+id/my_profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/slider1"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/doctor_profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profile1"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/doctor_profile_image">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/doctor_profile_image"
+        android:layout_margin="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/doctor_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/doctor_profile_image_icon"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/doctor" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/doctor_profile_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="Enter name"
+                android:textColor="#FFDF1111"
+                android:textSize="25dp"
+                android:textStyle="italic" />
+                <View
+                    android:background="#bcbcb1"
+                    android:layout_margin="10dp"
+                    android:layout_width="275dp"
+                    android:layout_height="3dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/specilist" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/doctor_profile_speciliazation_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="Enter name"
+                android:textColor="#FFDF1111"
+                android:textSize="25dp"
+                android:textStyle="italic" />
+                <View
+                    android:background="#bcbcb1"
+                    android:layout_margin="10dp"
+                    android:layout_width="275dp"
+                    android:layout_height="3dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dob" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/doctor_profile_Dob_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Enter name"
+                    android:textColor="#FFDF1111"
+                    android:textSize="25dp"
+                    android:textStyle="italic" />
+                <View
+                    android:background="#bcbcb1"
+                    android:layout_margin="10dp"
+                    android:layout_width="275dp"
+                    android:layout_height="3dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/hospital" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/doctor_profile_Hospial_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:hint="Enter name"
+                        android:textColor="#FFDF1111"
+                        android:textSize="25dp"
+                        android:textStyle="italic" />
+                    <View
+                        android:background="#bcbcb1"
+                        android:layout_margin="10dp"
+                        android:layout_width="275dp"
+                        android:layout_height="3dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Weakend"
+            android:background="@drawable/custom_button"
+            android:id="@+id/change_weekend"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Want to Take Leave"
+            android:background="@drawable/custom_button"
+            android:id="@+id/on_live"
+            android:layout_marginBottom="20dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

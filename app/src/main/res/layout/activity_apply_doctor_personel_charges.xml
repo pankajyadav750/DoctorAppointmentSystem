@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminAppliedChargesActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Apply Booking Charges"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#E91E63"
+        android:textAlignment="center"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter booking amount personly to doctor"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:id="@+id/personly_amount_booking_edit"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/personly_apply_charges_id"
+        android:background="@drawable/custom_button"
+        android:text="Apply charges"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

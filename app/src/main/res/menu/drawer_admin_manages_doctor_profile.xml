@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:title="All Cofirm Booking"
+        android:id="@+id/admin_manage_doctor_confirm_booking_req_id"
+        android:icon="@drawable/book1"
+        />
+
+    <item
+        android:title="Apply Doctor Chages"
+        android:id="@+id/admin_manage_doctor_charges"
+        android:icon="@drawable/pay"
+        />
+
+    <item
+        android:title="Payment History"
+        android:id="@+id/admin_manage_doctor_payment_history"
+        android:icon="@drawable/pay1"
+        />
+    <item
+        android:title="Appointment History"
+        android:id="@+id/admin_manage_doctor_appointment_history"
+        android:icon="@drawable/handbook"
+        />
+
+
+
+
+</menu>

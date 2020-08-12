@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminAppliedChargesActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Apply Booking Charges"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#E91E63"
+        android:textAlignment="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctor_eperience_layout"
+
+        android:layout_margin="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/weekend" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/doctor_profile_weekend_spiner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="doctor specilist In"
+                android:textColor="#FFDF1111"
+                android:textSize="20dp"
+
+                android:textStyle="bold" />
+
+            <View
+                android:background="#bcbcb1"
+                android:layout_margin="10dp"
+                android:layout_width="340dp"
+                android:layout_height="3dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_weekenda"
+        android:background="@drawable/custom_button"
+        android:text="Change Weekend"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

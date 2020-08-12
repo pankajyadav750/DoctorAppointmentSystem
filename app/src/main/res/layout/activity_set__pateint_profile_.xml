@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminLoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/doctor_profile_back_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="center"
+            android:src="@drawable/slider2" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/patient_profile_image_icon"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/photo"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+    </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/doctor_profile_image_icon"
+                android:layout_margin="30dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/name" />
+
+                <EditText
+                    android:id="@+id/set_patient_profile_name_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Enter name"
+                    android:textColor="#FFDF1111"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/doctor_profile_image_icon"
+                android:layout_margin="30dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/phone" />
+
+                <EditText
+                    android:id="@+id/set_patient_profile_contact_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Enter Contact"
+                    android:textColor="#FFDF1111"
+                    android:inputType="number"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/doctor_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/doctor_profile_image_icon"
+                android:layout_margin="30dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/email" />
+
+                <EditText
+                    android:id="@+id/set_patient_profile_gmail_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Enter your gmail"
+                    android:textColor="#FFDF1111"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/set_patient_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/doctor_contact_number_edit"
+
+                android:layout_margin="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/gender" />
+
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="gender:"
+                        android:textSize="20sp" />
+
+                    <RadioGroup
+                        android:id="@+id/choose_patient_profile_gender"
+                        android:layout_width="3000dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/patient_male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="male" />
+
+                        <RadioButton
+                            android:id="@+id/patient_female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="female" />
+                    </RadioGroup>
+
+                </GridLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/doctor_dob_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/doctor_gender"
+                android:layout_margin="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dob" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/set_patient_profile_dob_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20dp"
+                        android:textStyle="italic"
+                        android:textColor="#FFDF1111"
+                        android:hint="Click to Choose Your Daet of Birth"
+
+                        />
+
+                    <View
+                        android:background="#bcbcb1"
+                        android:layout_margin="10dp"
+                        android:layout_width="340dp"
+                        android:layout_height="3dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/doctor_profile_image_icon"
+                android:layout_margin="30dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:baselineAligned="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/address" />
+
+                <EditText
+                    android:id="@+id/set_patient_profile_address_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="your Address"
+                    android:textColor="#FFDF1111"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/save_patient_details_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/doctor_hospital_layout"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:text="SAVE DETAILS" />
+
+
+
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

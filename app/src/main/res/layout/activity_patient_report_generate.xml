@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientReportGenerateActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/header"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="45sp"
+            android:textColor="#ffffffff"
+            android:text="sushila hospital"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="italic"
+            android:id="@+id/hospital_name"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="#ffffffff"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/location_hospital"
+            android:text="Machhali Shahar"
+            android:layout_below="@+id/hospital_name"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/hospital_contact_doctor"
+            android:text="phone: 9506188591"
+            android:layout_below="@+id/location_hospital"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25sp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/hicon1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:id="@+id/patient_info"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:layout_height="100dp"
+            android:id="@+id/patient_report_image"
+            android:src="@drawable/profile"/>
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/report_patient_name"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:text="Patient Name: pankaj yadav"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/report_patient_gender"
+                android:layout_marginTop="10dp"
+                android:text="PateintGender : male"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/report_patient_contact"
+                android:layout_marginTop="10dp"
+                android:text="Patient Contact: 9506188591"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:textStyle="italic"
+        android:layout_below="@+id/patient_info"
+        android:id="@+id/horizontal_line"
+        android:background="#bcbcb1"
+        android:layout_margin="10dp"
+        android:layout_width="390dp"
+        android:layout_height="3dp"
+        />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/horizontal_line"
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/patient_status"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:text="hello"
+        />
+
+    <View
+        android:layout_below="@+id/patient_status"
+        android:id="@+id/horizontal_line2"
+        android:background="#bcbcb1"
+        android:layout_margin="10dp"
+        android:layout_width="390dp"
+        android:layout_height="3dp"
+
+        />
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horizontal_line2"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/report_doctor_name"
+            android:layout_marginTop="10dp"
+            android:text="pankaj yadav"
+            android:textStyle="italic|bold"
+            android:textColor="#080F4B"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/report_patient_specilist"
+            android:layout_marginTop="10dp"
+            android:text="Dentist"
+            android:textStyle="italic|bold"
+            android:textColor="#080F4B"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/report_doctor_education"
+            android:layout_marginTop="10dp"
+            android:text="MBBS"
+            android:textStyle="italic|bold"
+            android:textColor="#080F4B"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:text="Date: 2/4/2020"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:textColor="#E91E63"
+        android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+</ScrollView>

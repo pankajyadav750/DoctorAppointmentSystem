@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">DoctorAppointmentSystem</string>
+    <string name="appontments">Appontments</string>
+    <string name="test_bookings">Test Bookings</string>
+    <string name="orders">Orders</string>
+    <string name="consultations">Consultations</string>
+    <string name="my_doctor">My Doctor</string>
+    <string name="reminders">Reminders</string>
+    <string name="payment_and_healthcare">Payment and HealthCare</string>
+    <string name="are_you_admin">Are you admin</string>
+    <string name="are_you_a_docto">Are you a Doctor</string>
+    <string name="settings">PatientLogin</string>
+    <string name="help_center">Help center</string>
+    <string name="read_about_health">Read about health</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="Select_catogories" id="doctor_specialist">
+        <item>Select your catogaries</item>
+        <item>General Surgery</item>
+        <item>Dental Care</item>
+        <item>Skin Specialist</item>
+        <item>Womens Health</item>
+        <item>Ear Nose Throat </item>
+        <item>Homeopathy</item>
+        <item>Bone and Joints</item>
+        <item>Eye Specialist</item>
+        <item>Sex Specialist</item>
+        <item>Digestive issues</item>
+        <item>Mental Wellness</item>
+        <item>Physiotherapy</item>
+        <item>Diabetes Management</item>
+        <item>Brain and Nerves</item>
+        <item>Urinary issues</item>
+        <item>Kidney issues</item>
+        <item>General Surgery</item>
+        <item>Lungs and Breathing</item>
+        <item>Heart</item>
+        <item>Cancer</item>
+        <item>Child Specialist</item>
+        <item>Ayurveda</item>
+        <item>Genral Physician</item>
+        <item>Diet and Nutrition</item>
+
+    </string-array>
+
+    <string-array name="Select_shedule" id="appointmentshedule">
+
+        <item>9:00 Am</item>
+        <item>10:00 Am</item>
+        <item>11:00 Am</item>
+        <item>12:00 pm</item>
+        <item>1:00 pm</item>
+        <item>3:00 pm</item>
+        <item>4:00 pm</item>
+        <item>5:00 pm</item>
+        <item>6:00 pm</item>
+        <item>7:00 pm</item>
+
+
+    </string-array>
+
+
+    <string-array name="doctor_off_day" id="appointmentshedule">
+        <item>click to Select your weekend</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+</resources>

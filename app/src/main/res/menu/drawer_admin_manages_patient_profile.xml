@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:title="Payment History"
+        android:id="@+id/admin_manage_payment"
+        android:icon="@drawable/pay1"
+        />
+
+    <item
+        android:title="All Cofirm Booking"
+        android:id="@+id/admin_manage_patient_confirm_booking"
+        android:icon="@drawable/book1"
+        />
+    <item
+        android:title="Appointment History"
+        android:id="@+id/admin_manage_appointment"
+        android:icon="@drawable/handbook"
+        />
+
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E7DDDD"
+    tools:context=".AdminViewDoctorPaymentHistory">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/doctor_payment_report_confrm_profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffffff"
+        android:elevation="4dp"
+        app:popupTheme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/doctor_payment_report_confirm_Recycler_List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

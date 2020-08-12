@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "232054571875",
+    "firebase_url": "https://doctorappointmentsystem-ff988.firebaseio.com",
+    "project_id": "doctorappointmentsystem-ff988",
+    "storage_bucket": "doctorappointmentsystem-ff988.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232054571875:android:421f1dabb1eae96a7e8956",
+        "android_client_info": {
+          "package_name": "com.example.doctorappointmentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232054571875-i241dgmjn8k7e2p00cropko0k617l6at.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.doctorappointmentsystem",
+            "certificate_hash": "daf57c646646a879b0e64b90a03e9385c4268d27"
+          }
+        },
+        {
+          "client_id": "232054571875-fdq8r4snb38uolevv31o3750h6cbilps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFxsbAa-R_TgPCAkwrF-i9KyG5LMqRip4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232054571875-fdq8r4snb38uolevv31o3750h6cbilps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

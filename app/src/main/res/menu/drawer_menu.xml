@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_appointments"
+            android:icon="@drawable/doctorva"
+            android:title="@string/appontments" />
+
+        <item
+            android:id="@+id/my_bookings"
+            android:icon="@drawable/pay1"
+            android:title="Payment History" />
+
+        <item
+            android:id="@+id/my_orders"
+            android:icon="@drawable/book1"
+            android:title="Appointment History" />
+
+        <item
+            android:id="@+id/my_cunsultations"
+            android:icon="@drawable/chat"
+            android:title="@string/consultations" />
+
+    </group>
+
+    <item android:title="Also visit">
+
+        <menu>
+
+            <item
+
+                android:id="@+id/read_about_health"
+                android:icon="@drawable/handbook"
+                android:title="@string/read_about_health"
+
+                />
+            <item
+
+                android:id="@+id/patient_update_health"
+                android:icon="@drawable/refresh"
+                android:title="Update Your Profile"
+
+                />
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

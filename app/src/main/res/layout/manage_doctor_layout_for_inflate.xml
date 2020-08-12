@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/manage_doctor_layout_inflat_inflat"
+    android:background="#E7DDDD"
+    >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+
+            android:background="@drawable/custom_cart_view"
+            android:layout_marginRight="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/manage_doctor_image_inflate"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mydoctor"
+
+                    />
+
+                <TextView
+                    android:id="@+id/manage_doctor_name_infalete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:layout_below="@+id/manage_doctor_image_inflate"
+                    android:layout_centerHorizontal="true"
+                    android:text="doctor_name"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/manage_doctor_name_infalete"
+                    android:layout_centerHorizontal="true"
+                    android:text="doctor_name"
+                    android:id="@+id/manage_doctor_profesion_inflate"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>

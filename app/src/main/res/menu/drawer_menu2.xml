@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="All Booking Request"
+        android:id="@+id/booking_req_id"
+        android:icon="@drawable/handbook"
+        />
+
+    <item
+        android:title="All Chat Request"
+        android:id="@+id/chat_req_id"
+        android:icon="@drawable/chat_req"
+        />
+
+    <item
+        android:title="All Cofirm Booking"
+        android:id="@+id/confirm_booking_req_id"
+        android:icon="@drawable/book1"
+        />
+    <item
+        android:title="Allready Chating With"
+        android:id="@+id/confirm_chating_req_id"
+        android:icon="@drawable/chat"
+        />
+    <item
+        android:title="Payment History"
+        android:id="@+id/payment_history_of_patient"
+        android:icon="@drawable/pay1"
+        />
+    <item
+        android:title="Appointment History"
+        android:id="@+id/appointment_history_of_patient"
+        android:icon="@drawable/book1"
+        />
+    <item
+        android:title="Update your Profile"
+        android:id="@+id/doctor_update_profile"
+        android:icon="@drawable/refresh"
+        />
+
+
+</menu>

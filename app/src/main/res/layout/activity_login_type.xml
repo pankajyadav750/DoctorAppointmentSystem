@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginTypeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_image1">
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you..."
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#C93025"
+        android:textStyle="bold"
+        android:layout_above="@+id/doctortypelogin"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctortypelogin"
+        android:text="Doctor Login"
+        android:background="@drawable/custom_button"
+        android:layout_margin="20dp"
+        android:layout_above="@+id/patienttypelogin"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/patienttypelogin"
+        android:layout_centerInParent="true"
+        android:text="Patient Login"
+        android:background="@drawable/custom_button"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/admintypelogin"
+        android:background="@drawable/custom_button"
+        android:text="Admin Login"
+        android:layout_below="@+id/patienttypelogin"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

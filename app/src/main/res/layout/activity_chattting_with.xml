@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD8D8"
+    tools:context=".ChatttingWithActivity">
+
+    <include android:id="@+id/manage_chating_profile_toolbar"
+        layout="@layout/app_bar_toolbar"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/private_messages_list_of_doctor_patient"
+        android:layout_below="@+id/manage_chating_profile_toolbar"
+        android:layout_above="@+id/chat_linear_layout"/>
+
+    <LinearLayout
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_linear_layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/input_group_message"
+            android:layout_width="310dp"
+            android:hint="type message here."
+            android:layout_height="wrap_content"
+
+
+            />
+
+        <ImageButton
+            android:layout_marginTop="4dp"
+            android:id="@+id/send_message"
+            android:layout_marginLeft="10dp"
+            android:layout_width="70dp"
+            android:background="@drawable/custom_button"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_send_black_24dp"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
